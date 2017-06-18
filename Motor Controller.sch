@@ -1,0 +1,483 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Micromouse
+LIBS:teensy
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TC4427 U?
+U 1 1 5945E3C6
+P 2500 2200
+F 0 "U?" H 2700 2450 60  0000 L CNN
+F 1 "TC4427" H 2700 2350 60  0000 L CNN
+F 2 "" H 2500 2200 60  0001 C CNN
+F 3 "" H 2500 2200 60  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZXMHC3F381N8 U?
+U 1 1 5945E3EF
+P 4800 2200
+F 0 "U?" H 5000 2450 60  0000 L CNN
+F 1 "ZXMHC3F381N8" H 5000 2350 60  0000 L CNN
+F 2 "" H 4800 2200 60  0001 C CNN
+F 3 "" H 4800 2200 60  0001 C CNN
+	1    4800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2X3Header U?
+U 1 1 5945E464
+P 7300 2200
+F 0 "U?" H 7500 2450 60  0000 L CNN
+F 1 "2X3Header" H 7500 2350 60  0000 L CNN
+F 2 "" H 7300 2200 60  0001 C CNN
+F 3 "" H 7300 2200 60  0001 C CNN
+	1    7300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5945E536
+P 1100 3200
+F 0 "R?" V 1180 3200 50  0000 C CNN
+F 1 "47k" V 1100 3200 50  0000 C CNN
+F 2 "" V 1030 3200 50  0001 C CNN
+F 3 "" H 1100 3200 50  0001 C CNN
+	1    1100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5945E56D
+P 1500 3200
+F 0 "R?" V 1580 3200 50  0000 C CNN
+F 1 "47k" V 1500 3200 50  0000 C CNN
+F 2 "" V 1430 3200 50  0001 C CNN
+F 3 "" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5945E595
+P 3100 2900
+F 0 "C?" H 3125 3000 50  0000 L CNN
+F 1 "0.1uF" H 3125 2800 50  0000 L CNN
+F 2 "" H 3138 2750 50  0001 C CNN
+F 3 "" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5945E5DD
+P 3100 3200
+F 0 "C?" H 3125 3300 50  0000 L CNN
+F 1 "100uF" H 3125 3100 50  0000 L CNN
+F 2 "" H 3138 3050 50  0001 C CNN
+F 3 "" H 3100 3200 50  0001 C CNN
+	1    3100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5945E5FF
+P 1100 3800
+F 0 "#PWR?" H 1100 3550 50  0001 C CNN
+F 1 "GNDD" H 1100 3650 50  0000 C CNN
+F 2 "" H 1100 3800 50  0001 C CNN
+F 3 "" H 1100 3800 50  0001 C CNN
+	1    1100 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2500 0    60   Input ~ 0
+R_PWM_B
+Text GLabel 1000 2300 0    60   Input ~ 0
+R_PWM_A
+Wire Wire Line
+	2500 2500 1000 2500
+Wire Wire Line
+	2500 2300 1000 2300
+Wire Wire Line
+	1100 3050 1100 2300
+Connection ~ 1100 2300
+Wire Wire Line
+	1500 3050 1500 2500
+Connection ~ 1500 2500
+Wire Wire Line
+	1100 3350 1100 3800
+Wire Wire Line
+	1500 3350 1500 3600
+Wire Wire Line
+	1500 3600 1100 3600
+Connection ~ 1100 3600
+Wire Wire Line
+	2500 2400 2400 2400
+Wire Wire Line
+	2400 2400 2400 3600
+Wire Wire Line
+	2950 2900 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2950 3200 2400 3200
+Connection ~ 2400 3200
+Wire Wire Line
+	3250 2900 3675 2900
+Wire Wire Line
+	3675 1925 3675 3200
+Wire Wire Line
+	3600 2400 3675 2400
+Connection ~ 3675 2400
+Text GLabel 3675 1925 1    60   Input ~ 0
+V_BAT
+NoConn ~ 2500 2200
+NoConn ~ 3600 2200
+Wire Wire Line
+	6200 2200 6200 2000
+Wire Wire Line
+	6200 2000 4800 2000
+Wire Wire Line
+	4800 2000 4800 2200
+Wire Wire Line
+	4800 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 2300
+Wire Wire Line
+	3950 2300 3600 2300
+Wire Wire Line
+	6200 2500 6200 2625
+Wire Wire Line
+	6200 2625 4800 2625
+Wire Wire Line
+	4800 2625 4800 2500
+Wire Wire Line
+	4800 2500 3600 2500
+Wire Wire Line
+	4800 2400 4600 2400
+Wire Wire Line
+	4600 2400 4600 3225
+Wire Wire Line
+	6200 2300 6300 2300
+Wire Wire Line
+	6300 2300 6300 1850
+Wire Wire Line
+	6200 2400 6900 2400
+Wire Wire Line
+	6900 2400 6900 2600
+Wire Wire Line
+	6900 2600 8300 2600
+Wire Wire Line
+	8300 2600 8300 2400
+Wire Wire Line
+	7300 2400 7300 2725
+Wire Wire Line
+	7300 2725 4675 2725
+Wire Wire Line
+	4675 2725 4675 2300
+Wire Wire Line
+	4675 2300 4800 2300
+Text GLabel 7300 2200 0    60   Input ~ 0
+R_CH_A
+Text GLabel 8300 2200 2    60   Input ~ 0
+R_CH_B
+Wire Wire Line
+	7300 2300 6900 2300
+Wire Wire Line
+	6900 2300 6900 1900
+Wire Wire Line
+	8300 2300 8450 2300
+Wire Wire Line
+	8450 2300 8450 2850
+$Comp
+L GNDD #PWR?
+U 1 1 5945ED1F
+P 8450 2850
+F 0 "#PWR?" H 8450 2600 50  0001 C CNN
+F 1 "GNDD" H 8450 2700 50  0000 C CNN
+F 2 "" H 8450 2850 50  0001 C CNN
+F 3 "" H 8450 2850 50  0001 C CNN
+	1    8450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5945ED79
+P 6900 1900
+F 0 "#PWR?" H 6900 1750 50  0001 C CNN
+F 1 "+5V" H 6900 2040 50  0000 C CNN
+F 2 "" H 6900 1900 50  0001 C CNN
+F 3 "" H 6900 1900 50  0001 C CNN
+	1    6900 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 1850 1    60   Input ~ 0
+V_BAT
+$Comp
+L TC4427 U?
+U 1 1 5945EF70
+P 2600 5075
+F 0 "U?" H 2800 5325 60  0000 L CNN
+F 1 "TC4427" H 2800 5225 60  0000 L CNN
+F 2 "" H 2600 5075 60  0001 C CNN
+F 3 "" H 2600 5075 60  0001 C CNN
+	1    2600 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZXMHC3F381N8 U?
+U 1 1 5945EF76
+P 4900 5075
+F 0 "U?" H 5100 5325 60  0000 L CNN
+F 1 "ZXMHC3F381N8" H 5100 5225 60  0000 L CNN
+F 2 "" H 4900 5075 60  0001 C CNN
+F 3 "" H 4900 5075 60  0001 C CNN
+	1    4900 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2X3Header U?
+U 1 1 5945EF7C
+P 7400 5075
+F 0 "U?" H 7600 5325 60  0000 L CNN
+F 1 "2X3Header" H 7600 5225 60  0000 L CNN
+F 2 "" H 7400 5075 60  0001 C CNN
+F 3 "" H 7400 5075 60  0001 C CNN
+	1    7400 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5945EF82
+P 1200 6075
+F 0 "R?" V 1280 6075 50  0000 C CNN
+F 1 "47k" V 1200 6075 50  0000 C CNN
+F 2 "" V 1130 6075 50  0001 C CNN
+F 3 "" H 1200 6075 50  0001 C CNN
+	1    1200 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5945EF88
+P 1600 6075
+F 0 "R?" V 1680 6075 50  0000 C CNN
+F 1 "47k" V 1600 6075 50  0000 C CNN
+F 2 "" V 1530 6075 50  0001 C CNN
+F 3 "" H 1600 6075 50  0001 C CNN
+	1    1600 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5945EF8E
+P 3200 5775
+F 0 "C?" H 3225 5875 50  0000 L CNN
+F 1 "0.1uF" H 3225 5675 50  0000 L CNN
+F 2 "" H 3238 5625 50  0001 C CNN
+F 3 "" H 3200 5775 50  0001 C CNN
+	1    3200 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5945EF94
+P 3200 6075
+F 0 "C?" H 3225 6175 50  0000 L CNN
+F 1 "100uF" H 3225 5975 50  0000 L CNN
+F 2 "" H 3238 5925 50  0001 C CNN
+F 3 "" H 3200 6075 50  0001 C CNN
+	1    3200 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 5945EF9A
+P 1200 6675
+F 0 "#PWR?" H 1200 6425 50  0001 C CNN
+F 1 "GNDD" H 1200 6525 50  0000 C CNN
+F 2 "" H 1200 6675 50  0001 C CNN
+F 3 "" H 1200 6675 50  0001 C CNN
+	1    1200 6675
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 5375 0    60   Input ~ 0
+L_PWM_B
+Text GLabel 1100 5175 0    60   Input ~ 0
+L_PWM_A
+Wire Wire Line
+	2600 5375 1100 5375
+Wire Wire Line
+	2600 5175 1100 5175
+Wire Wire Line
+	1200 5925 1200 5175
+Connection ~ 1200 5175
+Wire Wire Line
+	1600 5925 1600 5375
+Connection ~ 1600 5375
+Wire Wire Line
+	1200 6225 1200 6675
+Wire Wire Line
+	1600 6225 1600 6475
+Wire Wire Line
+	1600 6475 1200 6475
+Connection ~ 1200 6475
+Wire Wire Line
+	2600 5275 2500 5275
+Wire Wire Line
+	2500 5275 2500 6475
+Wire Wire Line
+	3050 5775 2500 5775
+Connection ~ 2500 5775
+Wire Wire Line
+	3050 6075 2500 6075
+Connection ~ 2500 6075
+Wire Wire Line
+	3350 5775 3775 5775
+Wire Wire Line
+	3775 4800 3775 6075
+Wire Wire Line
+	3700 5275 3775 5275
+Connection ~ 3775 5275
+Text GLabel 3775 4800 1    60   Input ~ 0
+V_BAT
+NoConn ~ 2600 5075
+NoConn ~ 3700 5075
+Wire Wire Line
+	6300 5075 6300 4875
+Wire Wire Line
+	6300 4875 4900 4875
+Wire Wire Line
+	4900 4875 4900 5075
+Wire Wire Line
+	4900 5075 4050 5075
+Wire Wire Line
+	4050 5075 4050 5175
+Wire Wire Line
+	4050 5175 3700 5175
+Wire Wire Line
+	6300 5375 6300 5500
+Wire Wire Line
+	6300 5500 4900 5500
+Wire Wire Line
+	4900 5500 4900 5375
+Wire Wire Line
+	4900 5375 3700 5375
+Wire Wire Line
+	4900 5275 4700 5275
+Wire Wire Line
+	4700 5275 4700 6100
+Wire Wire Line
+	6300 5175 6400 5175
+Wire Wire Line
+	6400 5175 6400 4725
+Wire Wire Line
+	6300 5275 7000 5275
+Wire Wire Line
+	7000 5275 7000 5475
+Wire Wire Line
+	7000 5475 8400 5475
+Wire Wire Line
+	8400 5475 8400 5275
+Wire Wire Line
+	7400 5275 7400 5600
+Wire Wire Line
+	7400 5600 4775 5600
+Wire Wire Line
+	4775 5600 4775 5175
+Wire Wire Line
+	4775 5175 4900 5175
+Text GLabel 7400 5075 0    60   Input ~ 0
+L_CH_A
+Text GLabel 8400 5075 2    60   Input ~ 0
+L_CH_B
+Wire Wire Line
+	7400 5175 7000 5175
+Wire Wire Line
+	7000 5175 7000 4775
+Wire Wire Line
+	8400 5175 8550 5175
+Wire Wire Line
+	8550 5175 8550 5725
+$Comp
+L GNDD #PWR?
+U 1 1 5945EFE1
+P 8550 5725
+F 0 "#PWR?" H 8550 5475 50  0001 C CNN
+F 1 "GNDD" H 8550 5575 50  0000 C CNN
+F 2 "" H 8550 5725 50  0001 C CNN
+F 3 "" H 8550 5725 50  0001 C CNN
+	1    8550 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5945EFE7
+P 7000 4775
+F 0 "#PWR?" H 7000 4625 50  0001 C CNN
+F 1 "+5V" H 7000 4915 50  0000 C CNN
+F 2 "" H 7000 4775 50  0001 C CNN
+F 3 "" H 7000 4775 50  0001 C CNN
+	1    7000 4775
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 4725 1    60   Input ~ 0
+V_BAT
+Wire Wire Line
+	3675 3200 3250 3200
+Connection ~ 3675 2900
+Wire Wire Line
+	3775 6075 3350 6075
+Connection ~ 3775 5775
+Text Notes 3275 1100 0    394  ~ 79
+Motor Controller \n
+Text GLabel 2400 3600 0    39   Input ~ 8
+MGND
+Text GLabel 2500 6475 0    39   Input ~ 8
+MGND
+Text GLabel 4700 6100 0    39   Input ~ 8
+MGND
+Text GLabel 4600 3225 0    39   Input ~ 8
+MGND
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Monday, June 05, 2017 'PMt' 10:55:57 PM
+update=Saturday, June 17, 2017 'PMt' 10:59:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Library/TC4427
-LibName31=Library/ZXMHC3F381N8
-LibName32=Library/2x3Header
+LibName30=library/Micromouse
+LibName31=/Users/yikealo/Downloads/teensy_library-master/teensy

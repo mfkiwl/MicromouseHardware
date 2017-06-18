@@ -1,0 +1,432 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Micromouse
+LIBS:teensy
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LMZ21701 U?
+U 1 1 59463C78
+P 5300 3900
+F 0 "U?" H 5250 3550 39  0000 C CNN
+F 1 "LMZ21701" H 5225 4125 39  0000 C CNN
+F 2 "" H 5300 3600 39  0001 C CNN
+F 3 "" H 5300 3600 39  0001 C CNN
+F 4 "LMZ21701SILT" H 5300 3500 39  0001 C CNN "manf#"
+	1    5300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59463D0A
+P 4175 3950
+F 0 "C?" H 4200 4050 50  0000 L CNN
+F 1 "22uF" H 4200 3850 50  0000 L CNN
+F 2 "" H 4213 3800 50  0001 C CNN
+F 3 "" H 4175 3950 50  0001 C CNN
+	1    4175 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59463D30
+P 4575 4150
+F 0 "C?" H 4600 4250 50  0000 L CNN
+F 1 "3300pF" H 4600 4050 50  0000 L CNN
+F 2 "" H 4613 4000 50  0001 C CNN
+F 3 "" H 4575 4150 50  0001 C CNN
+	1    4575 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59463D56
+P 6525 3950
+F 0 "C?" H 6550 4050 50  0000 L CNN
+F 1 "22uF" H 6550 3850 50  0000 L CNN
+F 2 "" H 6563 3800 50  0001 C CNN
+F 3 "" H 6525 3950 50  0001 C CNN
+	1    6525 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59463EA4
+P 6075 4100
+F 0 "R?" V 6155 4100 50  0000 C CNN
+F 1 "1.21M" V 6075 4100 50  0000 C CNN
+F 2 "" V 6005 4100 50  0001 C CNN
+F 3 "" H 6075 4100 50  0001 C CNN
+	1    6075 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59463ED5
+P 5825 4250
+F 0 "R?" V 5905 4250 50  0000 C CNN
+F 1 "383k" V 5825 4250 50  0000 C CNN
+F 2 "" V 5755 4250 50  0001 C CNN
+F 3 "" H 5825 4250 50  0001 C CNN
+	1    5825 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 59463FDA
+P 5275 4550
+F 0 "#PWR?" H 5275 4300 50  0001 C CNN
+F 1 "GNDD" H 5275 4400 50  0000 C CNN
+F 2 "" H 5275 4550 50  0001 C CNN
+F 3 "" H 5275 4550 50  0001 C CNN
+	1    5275 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 594642FB
+P 5875 3650
+F 0 "R?" V 5955 3650 50  0000 C CNN
+F 1 "10k" V 5875 3650 50  0000 C CNN
+F 2 "" V 5805 3650 50  0001 C CNN
+F 3 "" H 5875 3650 50  0001 C CNN
+	1    5875 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4175 3450 1    39   Input ~ 8
+V_BAT
+Text GLabel 6900 3800 1    39   Input ~ 8
+V3.3
+$Comp
+L splitter U?
+U 1 1 5946550D
+P 7000 4550
+F 0 "U?" H 7000 4325 39  0000 C CNN
+F 1 "splitter" H 7000 4875 39  0000 C CNN
+F 2 "" H 7000 4550 39  0001 C CNN
+F 3 "" H 7000 4550 39  0001 C CNN
+	1    7000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMZ21701 U?
+U 1 1 59465F6A
+P 1875 3900
+F 0 "U?" H 1825 3550 39  0000 C CNN
+F 1 "LMZ21701" H 1800 4125 39  0000 C CNN
+F 2 "" H 1875 3600 39  0001 C CNN
+F 3 "" H 1875 3600 39  0001 C CNN
+F 4 "LMZ21701SILT" H 1875 3500 39  0001 C CNN "manf#"
+	1    1875 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59465F70
+P 750 3950
+F 0 "C?" H 775 4050 50  0000 L CNN
+F 1 "22uF" H 775 3850 50  0000 L CNN
+F 2 "" H 788 3800 50  0001 C CNN
+F 3 "" H 750 3950 50  0001 C CNN
+	1    750  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59465F76
+P 1150 4150
+F 0 "C?" H 1175 4250 50  0000 L CNN
+F 1 "3300pF" H 1175 4050 50  0000 L CNN
+F 2 "" H 1188 4000 50  0001 C CNN
+F 3 "" H 1150 4150 50  0001 C CNN
+	1    1150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59465F7C
+P 3100 3950
+F 0 "C?" H 3125 4050 50  0000 L CNN
+F 1 "22uF" H 3125 3850 50  0000 L CNN
+F 2 "" H 3138 3800 50  0001 C CNN
+F 3 "" H 3100 3950 50  0001 C CNN
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59465F84
+P 2650 4100
+F 0 "R?" V 2730 4100 50  0000 C CNN
+F 1 "232k" V 2650 4100 50  0000 C CNN
+F 2 "" V 2580 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59465F8A
+P 2400 4250
+F 0 "R?" V 2480 4250 50  0000 C CNN
+F 1 "44.2k" V 2400 4250 50  0000 C CNN
+F 2 "" V 2330 4250 50  0001 C CNN
+F 3 "" H 2400 4250 50  0001 C CNN
+	1    2400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 59465F90
+P 1850 4550
+F 0 "#PWR?" H 1850 4300 50  0001 C CNN
+F 1 "GNDD" H 1850 4400 50  0000 C CNN
+F 2 "" H 1850 4550 50  0001 C CNN
+F 3 "" H 1850 4550 50  0001 C CNN
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59465F96
+P 2450 3650
+F 0 "R?" V 2530 3650 50  0000 C CNN
+F 1 "10k" V 2450 3650 50  0000 C CNN
+F 2 "" V 2380 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  3450 1    39   Input ~ 8
+V_BAT
+Wire Wire Line
+	4800 4100 4175 4100
+Wire Wire Line
+	4175 3800 4800 3800
+Wire Wire Line
+	5700 3800 7250 3800
+Connection ~ 5875 3800
+Connection ~ 6525 3800
+Wire Wire Line
+	5875 3500 5775 3500
+Wire Wire Line
+	5775 3500 5775 3900
+Wire Wire Line
+	5775 3900 5700 3900
+Wire Wire Line
+	5700 4100 5925 4100
+Connection ~ 5825 4100
+Wire Wire Line
+	6225 3800 6225 4100
+Connection ~ 6225 3800
+Wire Wire Line
+	5700 4000 6225 4000
+Connection ~ 6225 4000
+Wire Wire Line
+	5825 4550 5825 4400
+Wire Wire Line
+	4575 4550 4575 4300
+Connection ~ 5275 4550
+Wire Wire Line
+	6525 4550 6525 4100
+Connection ~ 5825 4550
+Wire Wire Line
+	4175 3800 4175 3450
+Wire Wire Line
+	4575 4000 4800 4000
+Wire Wire Line
+	4750 4550 4750 4000
+Connection ~ 4750 4550
+Connection ~ 4750 4000
+Wire Wire Line
+	4800 3900 4725 3900
+Wire Wire Line
+	4725 3900 4725 3800
+Connection ~ 4725 3800
+Connection ~ 4575 4550
+Connection ~ 6525 4550
+Wire Wire Line
+	1375 4100 750  4100
+Wire Wire Line
+	750  3800 1375 3800
+Wire Wire Line
+	2275 3800 3475 3800
+Connection ~ 2450 3800
+Connection ~ 3100 3800
+Wire Wire Line
+	2450 3500 2350 3500
+Wire Wire Line
+	2350 3500 2350 3900
+Wire Wire Line
+	2350 3900 2275 3900
+Wire Wire Line
+	2275 4100 2500 4100
+Connection ~ 2400 4100
+Wire Wire Line
+	2800 3800 2800 4100
+Connection ~ 2800 3800
+Wire Wire Line
+	2275 4000 2800 4000
+Connection ~ 2800 4000
+Wire Wire Line
+	2400 4400 2400 4550
+Wire Wire Line
+	1150 4300 1150 4775
+Connection ~ 1850 4550
+Wire Wire Line
+	3100 4550 3100 4100
+Wire Wire Line
+	750  3800 750  3450
+Wire Wire Line
+	1150 4000 1375 4000
+Wire Wire Line
+	1325 4000 1325 4550
+Connection ~ 1325 4000
+Wire Wire Line
+	1375 3900 1300 3900
+Wire Wire Line
+	1300 3900 1300 3800
+Connection ~ 1300 3800
+Wire Wire Line
+	1152 4550 1323 4550
+Wire Wire Line
+	1323 4550 1323 4551
+Wire Wire Line
+	1323 4551 1848 4551
+Wire Wire Line
+	1853 4550 6700 4550
+Connection ~ 2400 4550
+Connection ~ 3100 4550
+$Comp
+L splitter U?
+U 1 1 59466E47
+P 1150 5075
+F 0 "U?" H 1150 4850 39  0000 C CNN
+F 1 "splitter" H 1150 5400 39  0000 C CNN
+F 2 "" H 1150 5075 39  0001 C CNN
+F 3 "" H 1150 5075 39  0001 C CNN
+	1    1150 5075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 4550 1150 4550
+Connection ~ 1150 4550
+Text GLabel 1150 5375 0    39   Input ~ 8
+MGND
+$Comp
+L GNDA #PWR?
+U 1 1 594675FB
+P 7300 4550
+F 0 "#PWR?" H 7300 4300 50  0001 C CNN
+F 1 "GNDA" H 7300 4400 50  0000 C CNN
+F 2 "" H 7300 4550 50  0001 C CNN
+F 3 "" H 7300 4550 50  0001 C CNN
+	1    7300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59467C95
+P 3475 3800
+F 0 "#PWR?" H 3475 3650 50  0001 C CNN
+F 1 "+5V" H 3475 3940 50  0000 C CNN
+F 2 "" H 3475 3800 50  0001 C CNN
+F 3 "" H 3475 3800 50  0001 C CNN
+	1    3475 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59467F19
+P 7400 3800
+F 0 "L?" V 7350 3800 50  0000 C CNN
+F 1 "L" V 7475 3800 50  0000 C CNN
+F 2 "" H 7400 3800 50  0001 C CNN
+F 3 "" H 7400 3800 50  0001 C CNN
+	1    7400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3800 7800 3800
+Text GLabel 7800 3800 2    39   Input ~ 8
+VA3.3
+$Comp
+L JST_Connector U?
+U 1 1 594682BF
+P 2000 1675
+F 0 "U?" H 1750 1775 39  0000 C CNN
+F 1 "JST_Connector" H 2000 1925 39  0000 C CNN
+F 2 "" H 2000 1675 39  0001 C CNN
+F 3 "" H 1750 1775 39  0001 C CNN
+	1    2000 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_micromouse U?
+U 1 1 59468311
+P 2925 1700
+F 0 "U?" H 3175 1875 39  0000 C CNN
+F 1 "Switch_micromouse" H 2825 2050 39  0000 C CNN
+F 2 "" H 2925 1700 39  0001 C CNN
+F 3 "" H 2925 1700 39  0001 C CNN
+	1    2925 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 1900 2100 1900
+Wire Wire Line
+	2100 1900 2100 1875
+Text GLabel 1900 1875 0    39   Input ~ 8
+V_BAT
+$Comp
+L GNDD #PWR?
+U 1 1 59468675
+P 2825 1900
+F 0 "#PWR?" H 2825 1650 50  0001 C CNN
+F 1 "GNDD" H 2825 1750 50  0000 C CNN
+F 2 "" H 2825 1900 50  0001 C CNN
+F 3 "" H 2825 1900 50  0001 C CNN
+	1    2825 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

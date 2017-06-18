@@ -1,0 +1,268 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Micromouse
+LIBS:teensy
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_Photo D?
+U 1 1 5945F7BF
+P 3800 3125
+F 0 "D?" H 3820 3195 50  0000 L CNN
+F 1 "D_Photo" H 3760 3015 50  0000 C CNN
+F 2 "" H 3750 3125 50  0001 C CNN
+F 3 "" H 3750 3125 50  0001 C CNN
+	1    3800 3125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5945F8D6
+P 3800 3800
+F 0 "R?" V 3880 3800 50  0000 C CNN
+F 1 "1.8k" V 3800 3800 50  0000 C CNN
+F 2 "" V 3730 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3325 3800 3650
+$Comp
+L D_Photo D?
+U 1 1 5945FA4C
+P 4775 3100
+F 0 "D?" H 4795 3170 50  0000 L CNN
+F 1 "D_Photo" H 4735 2990 50  0000 C CNN
+F 2 "" H 4725 3100 50  0001 C CNN
+F 3 "" H 4725 3100 50  0001 C CNN
+	1    4775 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5945FA52
+P 4775 3775
+F 0 "R?" V 4855 3775 50  0000 C CNN
+F 1 "1.8k" V 4775 3775 50  0000 C CNN
+F 2 "" V 4705 3775 50  0001 C CNN
+F 3 "" H 4775 3775 50  0001 C CNN
+	1    4775 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3300 4775 3625
+$Comp
+L D_Photo D?
+U 1 1 5945FADF
+P 5775 3100
+F 0 "D?" H 5795 3170 50  0000 L CNN
+F 1 "D_Photo" H 5735 2990 50  0000 C CNN
+F 2 "" H 5725 3100 50  0001 C CNN
+F 3 "" H 5725 3100 50  0001 C CNN
+	1    5775 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5945FAE5
+P 5775 3775
+F 0 "R?" V 5855 3775 50  0000 C CNN
+F 1 "1.8k" V 5775 3775 50  0000 C CNN
+F 2 "" V 5705 3775 50  0001 C CNN
+F 3 "" H 5775 3775 50  0001 C CNN
+	1    5775 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 3300 5775 3625
+$Comp
+L D_Photo D?
+U 1 1 5945FB3E
+P 6775 3100
+F 0 "D?" H 6795 3170 50  0000 L CNN
+F 1 "D_Photo" H 6735 2990 50  0000 C CNN
+F 2 "" H 6725 3100 50  0001 C CNN
+F 3 "" H 6725 3100 50  0001 C CNN
+	1    6775 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5945FB44
+P 6775 3775
+F 0 "R?" V 6855 3775 50  0000 C CNN
+F 1 "1.8k" V 6775 3775 50  0000 C CNN
+F 2 "" V 6705 3775 50  0001 C CNN
+F 3 "" H 6775 3775 50  0001 C CNN
+	1    6775 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 3300 6775 3625
+$Comp
+L C C?
+U 1 1 5945FE6A
+P 7600 3400
+F 0 "C?" H 7625 3500 50  0000 L CNN
+F 1 "0.1uF" H 7625 3300 50  0000 L CNN
+F 2 "" H 7638 3250 50  0001 C CNN
+F 3 "" H 7600 3400 50  0001 C CNN
+	1    7600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5945FEE7
+P 3800 4525
+F 0 "#PWR?" H 3800 4275 50  0001 C CNN
+F 1 "GNDA" H 3800 4375 50  0000 C CNN
+F 2 "" H 3800 4525 50  0001 C CNN
+F 3 "" H 3800 4525 50  0001 C CNN
+	1    3800 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3950 3800 4525
+Wire Wire Line
+	4775 3925 4775 4250
+Wire Wire Line
+	3800 4250 7600 4250
+Connection ~ 3800 4250
+Wire Wire Line
+	5775 4250 5775 3925
+Connection ~ 4775 4250
+Wire Wire Line
+	6775 4250 6775 3925
+Connection ~ 5775 4250
+Wire Wire Line
+	7600 4250 7600 3550
+Connection ~ 6775 4250
+Text GLabel 8000 2400 2    59   Input ~ 12
+VA3.3
+Wire Wire Line
+	8000 2400 3800 2400
+Wire Wire Line
+	3800 2400 3800 3025
+Wire Wire Line
+	4775 3000 4775 2400
+Connection ~ 4775 2400
+Wire Wire Line
+	5775 3000 5775 2400
+Connection ~ 5775 2400
+Wire Wire Line
+	6775 3000 6775 2400
+Connection ~ 6775 2400
+Wire Wire Line
+	7600 3250 7600 2400
+Connection ~ 7600 2400
+$Comp
+L D_Photo D?
+U 1 1 594637C3
+P 4250 3100
+F 0 "D?" H 4270 3170 50  0000 L CNN
+F 1 "D_Photo" H 4210 2990 50  0000 C CNN
+F 2 "" H 4200 3100 50  0001 C CNN
+F 3 "" H 4200 3100 50  0001 C CNN
+	1    4250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 594637C9
+P 4250 3775
+F 0 "R?" V 4330 3775 50  0000 C CNN
+F 1 "1.8k" V 4250 3775 50  0000 C CNN
+F 2 "" V 4180 3775 50  0001 C CNN
+F 3 "" H 4250 3775 50  0001 C CNN
+	1    4250 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3300 4250 3625
+$Comp
+L D_Photo D?
+U 1 1 59463894
+P 5275 3100
+F 0 "D?" H 5295 3170 50  0000 L CNN
+F 1 "D_Photo" H 5235 2990 50  0000 C CNN
+F 2 "" H 5225 3100 50  0001 C CNN
+F 3 "" H 5225 3100 50  0001 C CNN
+	1    5275 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5946389A
+P 5275 3775
+F 0 "R?" V 5355 3775 50  0000 C CNN
+F 1 "1.8k" V 5275 3775 50  0000 C CNN
+F 2 "" V 5205 3775 50  0001 C CNN
+F 3 "" H 5275 3775 50  0001 C CNN
+	1    5275 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 3300 5275 3625
+Wire Wire Line
+	4250 3000 4250 2400
+Connection ~ 4250 2400
+Wire Wire Line
+	5275 3000 5275 2400
+Connection ~ 5275 2400
+Wire Wire Line
+	5275 3925 5275 4250
+Connection ~ 5275 4250
+Text GLabel 3800 3350 0    39   Input ~ 8
+L_RECEIVER
+Text GLabel 4250 3350 0    39   Input ~ 8
+LD_RECEIVER
+Text GLabel 4775 3350 0    39   Input ~ 8
+LF_RECEIVER
+Text GLabel 5275 3350 0    39   Input ~ 8
+RF_RECEIVER
+Text GLabel 5775 3350 0    39   Input ~ 8
+RD_RECEIVER
+Text GLabel 6775 3350 0    39   Input ~ 8
+R_RECEIVER
+$EndSCHEMATC
