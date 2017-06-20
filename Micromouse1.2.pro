@@ -1,4 +1,4 @@
-update=Saturday, June 17, 2017 'PMt' 10:59:52 PM
+update=Tuesday, June 20, 2017 'PMt' 01:46:23 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=library/Micromouse
 LibName31=/Users/yikealo/Downloads/teensy_library-master/teensy
+LibName32=/Users/yikealo/Dropbox/KiCad/Libraries/symbols/1_PJC-Sandbox

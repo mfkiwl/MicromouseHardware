@@ -29,8 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Micromouse
-LIBS:1_PJC-Sandbox
-LIBS:Micromouse1.2-cache
+LIBS:teensy
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
