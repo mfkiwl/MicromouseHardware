@@ -335,20 +335,9 @@ Wire Wire Line
 Wire Wire Line
 	1323 4551 1848 4551
 Wire Wire Line
-	1853 4550 6700 4550
+	1853 4550 6900 4550
 Connection ~ 2400 4550
 Connection ~ 3100 4550
-$Comp
-L splitter U?
-U 1 1 59466E47
-P 1150 5075
-F 0 "U?" H 1150 4850 39  0000 C CNN
-F 1 "splitter" H 1150 5400 39  0000 C CNN
-F 2 "" H 1150 5075 39  0001 C CNN
-F 3 "" H 1150 5075 39  0001 C CNN
-	1    1150 5075
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1325 4550 1150 4550
 Connection ~ 1150 4550
@@ -430,4 +419,19 @@ F 3 "" H 2825 1900 50  0001 C CNN
 	1    2825 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L splitter U?
+U 1 1 594B2CCC
+P 1150 4875
+F 0 "U?" H 1190 4795 39  0000 C CNN
+F 1 "splitter" H 1180 4985 39  0000 C CNN
+F 2 "" H 1150 4875 39  0001 C CNN
+F 3 "" H 1150 4875 39  0001 C CNN
+	1    1150 4875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 5375 1150 5075
+Wire Wire Line
+	7200 4550 7300 4550
 $EndSCHEMATC
