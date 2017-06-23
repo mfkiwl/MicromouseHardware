@@ -1,4 +1,4 @@
-update=6/21/2017 6:39:30 PM
+update=6/23/2017 12:49:04 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=library/Micromouse
 LibName31=/Users/yikealo/Dropbox/KiCad/Libraries/symbols/1_PJC-Sandbox
+[general]
+version=1
