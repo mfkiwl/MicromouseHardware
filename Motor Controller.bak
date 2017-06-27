@@ -1481,6 +1481,7 @@ F4 2C 88 35 6E E5 23 1F 08 82 BC D7 E0 12 D9 08 82 74 0A 94 0F 04 41 A4 04 E5 03
 14 09 E4 E2 EB 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+<<<<<<< Updated upstream
 Text GLabel 4600 3225 0    60   Input ~ 0
 GNDM
 Text GLabel 2400 3600 0    60   Input ~ 0
@@ -1489,4 +1490,6 @@ Text GLabel 2500 6475 0    60   Input ~ 0
 GNDM
 Text GLabel 4700 6100 0    60   Input ~ 0
 GNDM
+=======
+>>>>>>> Stashed changes
 $EndSCHEMATC
