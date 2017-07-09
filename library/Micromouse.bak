@@ -51,6 +51,22 @@ X ~ GNDM 0 -100 79 U 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
+# GNDM
+#
+DEF GNDM U 0 40 N Y 1 F N
+F0 "U" 100 -90 60 H I C CNN
+F1 "GNDM" 100 -10 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 2 0 1 0 -50 20 60 20 N
+P 2 0 1 0 -30 0 40 0 N
+P 2 0 1 0 -10 -20 10 -20 N
+X ~ 1 0 100 79 D 50 50 1 1 I
+X ~ GNDM 0 -100 79 U 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # JST_Connector
 #
 DEF JST_Connector U 0 40 Y Y 1 F N
@@ -411,8 +427,8 @@ ENDDEF
 #
 # ferrite
 #
-DEF ferrite U 0 40 N Y 1 F N
-F0 "U" 155 -60 39 H V C CNN
+DEF ferrite f 0 40 N Y 1 F N
+F0 "f" 155 -60 39 H V C CNN
 F1 "ferrite" 50 55 39 H V C CNN
 F2 "" 200 100 39 H I C CNN
 F3 "" -5 -90 39 H I C CNN
