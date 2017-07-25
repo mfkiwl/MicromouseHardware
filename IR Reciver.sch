@@ -268,4 +268,7 @@ Text GLabel 6775 3350 0    39   Input ~ 8
 R_RECEIVER
 Text Notes 4150 1300 0    394  ~ 79
 IR Reciver
+Wire Wire Line
+	4250 3925 4250 4250
+Connection ~ 4250 4250
 $EndSCHEMATC
