@@ -425,6 +425,22 @@ X P1G 8 1400 0 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# button
+#
+DEF button s 0 40 N Y 1 F N
+F0 "s" 15 -235 60 H V C CNN
+F1 "button" 10 265 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -35 15 -30 -10 0 1 0 N
+S -35 20 -25 -10 0 1 0 N
+S -20 55 -15 -45 0 1 0 N
+X ~ 1 0 100 79 D 50 50 1 1 B
+X ~ 2 0 -100 79 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # ferrite
 #
 DEF ferrite f 0 40 N Y 1 F N
