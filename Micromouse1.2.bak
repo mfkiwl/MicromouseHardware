@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -76,5 +76,11 @@ S 4075 3475 2725 1400
 U 59468AAF
 F0 "Micro controller" 157
 F1 "Micro controller.sch" 157
+$EndSheet
+$Sheet
+S 7325 3450 1075 1275
+U 597FE5C0
+F0 "BlueTooth" 60
+F1 "BlueToothF.sch" 60
 $EndSheet
 $EndSCHEMATC
