@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:device
+LIBS:Micromouse
+LIBS:power
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -28,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Micromouse
 LIBS:1_PJC-Sandbox
 LIBS:Micromouse1.2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -82,5 +82,11 @@ S 7325 3450 1075 1275
 U 597FE5C0
 F0 "BlueTooth" 60
 F1 "BlueToothF.sch" 60
+$EndSheet
+$Sheet
+S 8625 3450 1500 1325
+U 59AB6D77
+F0 "Gyro" 60
+F1 "Gyro.sch" 60
 $EndSheet
 $EndSCHEMATC

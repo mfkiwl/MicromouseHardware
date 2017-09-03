@@ -51,7 +51,7 @@ U 1 1 5945E3C6
 P 2500 2200
 F 0 "U2" H 2700 2450 60  0000 L CNN
 F 1 "TC4427" H 2700 2350 60  0000 L CNN
-F 2 "sop:MSOP8" H 2500 2200 60  0001 C CNN
+F 2 "micromouse:TC4427_MSOP8" H 2500 2200 60  0001 C CNN
 F 3 "" H 2500 2200 60  0001 C CNN
 	1    2500 2200
 	1    0    0    -1  
@@ -73,7 +73,7 @@ U 1 1 5945E464
 P 7300 2200
 F 0 "U9" H 7500 2450 60  0000 L CNN
 F 1 "2X3Header" H 7500 2350 60  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 7300 2200 60  0001 C CNN
+F 2 "micromouse:Motors_connectors" H 7300 2200 60  0001 C CNN
 F 3 "" H 7300 2200 60  0001 C CNN
 	1    7300 2200
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 1 1 5945EF70
 P 2600 5075
 F 0 "U4" H 2800 5325 60  0000 L CNN
 F 1 "TC4427" H 2800 5225 60  0000 L CNN
-F 2 "sop:MSOP8" H 2600 5075 60  0001 C CNN
+F 2 "micromouse:TC4427_MSOP8" H 2600 5075 60  0001 C CNN
 F 3 "" H 2600 5075 60  0001 C CNN
 	1    2600 5075
 	1    0    0    -1  
@@ -197,7 +197,7 @@ U 1 1 5945EF7C
 P 7400 5075
 F 0 "U10" H 7600 5325 60  0000 L CNN
 F 1 "2X3Header" H 7600 5225 60  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 7400 5075 60  0001 C CNN
+F 2 "micromouse:Motors_connectors" H 7400 5075 60  0001 C CNN
 F 3 "" H 7400 5075 60  0001 C CNN
 	1    7400 5075
 	1    0    0    -1  
@@ -295,228 +295,6 @@ Text GLabel 6400 4725 1    60   Input ~ 0
 V_BAT
 Text Notes 3275 1100 0    394  ~ 79
 Motor Controller \n
-$Comp
-L R R2
-U 1 1 594B8BDB
-P 1150 2500
-F 0 "R2" V 1230 2500 50  0000 C CNN
-F 1 "0" V 1150 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1080 2500 50  0001 C CNN
-F 3 "" H 1150 2500 50  0001 C CNN
-	1    1150 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R1
-U 1 1 594B8CA5
-P 1150 2300
-F 0 "R1" V 1230 2300 50  0000 C CNN
-F 1 "0" V 1150 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1080 2300 50  0001 C CNN
-F 3 "" H 1150 2300 50  0001 C CNN
-	1    1150 2300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1400 2925 1400 3375
-Wire Wire Line
-	1800 2925 1800 3175
-Wire Wire Line
-	1800 3175 1400 3175
-Connection ~ 1400 3175
-Wire Wire Line
-	2500 2400 2400 2400
-Wire Wire Line
-	2400 2400 2400 3600
-Wire Wire Line
-	2950 2900 2400 2900
-Connection ~ 2400 2900
-Wire Wire Line
-	2950 3200 2400 3200
-Connection ~ 2400 3200
-Wire Wire Line
-	3675 2900 3250 2900
-Wire Wire Line
-	3675 1925 3675 3200
-Wire Wire Line
-	3600 2400 3675 2400
-Connection ~ 3675 2400
-Wire Wire Line
-	6200 2200 6200 2000
-Wire Wire Line
-	6200 2000 4800 2000
-Wire Wire Line
-	4800 2000 4800 2200
-Wire Wire Line
-	4800 2200 3950 2200
-Wire Wire Line
-	3950 2200 3950 2300
-Wire Wire Line
-	3950 2300 3600 2300
-Wire Wire Line
-	6200 2500 6200 2625
-Wire Wire Line
-	6200 2625 4800 2625
-Wire Wire Line
-	4800 2625 4800 2500
-Wire Wire Line
-	4800 2500 3600 2500
-Wire Wire Line
-	4800 2400 4600 2400
-Wire Wire Line
-	4600 2400 4600 3225
-Wire Wire Line
-	6200 2300 6300 2300
-Wire Wire Line
-	6300 2300 6300 1850
-Wire Wire Line
-	6200 2400 6900 2400
-Wire Wire Line
-	6900 2400 6900 2600
-Wire Wire Line
-	6900 2600 8300 2600
-Wire Wire Line
-	8300 2600 8300 2400
-Wire Wire Line
-	7300 2400 7300 2725
-Wire Wire Line
-	7300 2725 4675 2725
-Wire Wire Line
-	4675 2725 4675 2300
-Wire Wire Line
-	4675 2300 4800 2300
-Wire Wire Line
-	7300 2300 6900 2300
-Wire Wire Line
-	6900 2300 6900 1900
-Wire Wire Line
-	8300 2300 8450 2300
-Wire Wire Line
-	8450 2300 8450 2850
-Wire Wire Line
-	1525 5800 1525 6250
-Wire Wire Line
-	1925 5800 1925 6050
-Wire Wire Line
-	1925 6050 1525 6050
-Connection ~ 1525 6050
-Wire Wire Line
-	2600 5275 2500 5275
-Wire Wire Line
-	2500 5275 2500 6475
-Wire Wire Line
-	3050 5775 2500 5775
-Connection ~ 2500 5775
-Wire Wire Line
-	3050 6075 2500 6075
-Connection ~ 2500 6075
-Wire Wire Line
-	3775 5775 3350 5775
-Wire Wire Line
-	3775 4800 3775 6075
-Wire Wire Line
-	3700 5275 3775 5275
-Connection ~ 3775 5275
-Wire Wire Line
-	6300 5075 6300 4875
-Wire Wire Line
-	6300 4875 4900 4875
-Wire Wire Line
-	4900 4875 4900 5075
-Wire Wire Line
-	4900 5075 4050 5075
-Wire Wire Line
-	4050 5075 4050 5175
-Wire Wire Line
-	4050 5175 3700 5175
-Wire Wire Line
-	6300 5375 6300 5500
-Wire Wire Line
-	6300 5500 4900 5500
-Wire Wire Line
-	4900 5500 4900 5375
-Wire Wire Line
-	4900 5375 3700 5375
-Wire Wire Line
-	4900 5275 4700 5275
-Wire Wire Line
-	4700 5275 4700 6100
-Wire Wire Line
-	6300 5175 6400 5175
-Wire Wire Line
-	6400 5175 6400 4725
-Wire Wire Line
-	6300 5275 7000 5275
-Wire Wire Line
-	7000 5275 7000 5475
-Wire Wire Line
-	7000 5475 8400 5475
-Wire Wire Line
-	8400 5475 8400 5275
-Wire Wire Line
-	7400 5275 7400 5600
-Wire Wire Line
-	7400 5600 4775 5600
-Wire Wire Line
-	4775 5600 4775 5175
-Wire Wire Line
-	4775 5175 4900 5175
-Wire Wire Line
-	7400 5175 7000 5175
-Wire Wire Line
-	7000 5175 7000 4775
-Wire Wire Line
-	8400 5175 8550 5175
-Wire Wire Line
-	8550 5175 8550 5725
-Wire Wire Line
-	3675 3200 3250 3200
-Connection ~ 3675 2900
-Wire Wire Line
-	3775 6075 3350 6075
-Connection ~ 3775 5775
-Wire Wire Line
-	2500 2500 1300 2500
-Wire Wire Line
-	2500 2300 1300 2300
-Wire Wire Line
-	1400 2625 1400 2300
-Connection ~ 1400 2300
-Wire Wire Line
-	1800 2625 1800 2500
-Connection ~ 1800 2500
-$Comp
-L R R3
-U 1 1 594B96FA
-P 1250 5175
-F 0 "R3" V 1330 5175 50  0000 C CNN
-F 1 "0" V 1250 5175 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1180 5175 50  0001 C CNN
-F 3 "" H 1250 5175 50  0001 C CNN
-	1    1250 5175
-	0    1    1    0   
-$EndComp
-$Comp
-L R R4
-U 1 1 594B9756
-P 1250 5375
-F 0 "R4" V 1330 5375 50  0000 C CNN
-F 1 "0" V 1250 5375 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1180 5375 50  0001 C CNN
-F 3 "" H 1250 5375 50  0001 C CNN
-	1    1250 5375
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 5175 1400 5175
-Wire Wire Line
-	2600 5375 1400 5375
-Wire Wire Line
-	1525 5500 1525 5175
-Connection ~ 1525 5175
-Wire Wire Line
-	1925 5500 1925 5375
-Connection ~ 1925 5375
 $Bitmap
 Pos 9375 2300
 Scale 1.000000
@@ -1489,4 +1267,282 @@ Text GLabel 2500 6475 0    60   Input ~ 0
 GNDM
 Text GLabel 4700 6100 0    60   Input ~ 0
 GNDM
+Wire Wire Line
+	1400 2925 1400 3375
+Wire Wire Line
+	1800 2925 1800 3175
+Wire Wire Line
+	1800 3175 1400 3175
+Connection ~ 1400 3175
+Wire Wire Line
+	2500 2400 2400 2400
+Wire Wire Line
+	2400 2400 2400 3600
+Wire Wire Line
+	2950 2900 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2950 3200 2400 3200
+Connection ~ 2400 3200
+Wire Wire Line
+	3675 2900 3250 2900
+Wire Wire Line
+	3675 1925 3675 3200
+Wire Wire Line
+	3600 2400 3675 2400
+Connection ~ 3675 2400
+Wire Wire Line
+	6200 2200 6200 2000
+Wire Wire Line
+	6200 2000 4800 2000
+Wire Wire Line
+	4800 2000 4800 2200
+Wire Wire Line
+	4800 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 2300
+Wire Wire Line
+	3950 2300 3600 2300
+Wire Wire Line
+	6200 2500 6200 2625
+Wire Wire Line
+	6200 2625 4800 2625
+Wire Wire Line
+	4800 2625 4800 2500
+Wire Wire Line
+	4800 2500 3600 2500
+Wire Wire Line
+	4800 2400 4600 2400
+Wire Wire Line
+	4600 2400 4600 3225
+Wire Wire Line
+	6200 2300 6300 2300
+Wire Wire Line
+	6300 2300 6300 1850
+Wire Wire Line
+	6200 2400 6900 2400
+Wire Wire Line
+	6900 2400 6900 2600
+Wire Wire Line
+	6900 2600 8300 2600
+Wire Wire Line
+	8300 2600 8300 2400
+Wire Wire Line
+	7300 2400 7300 2725
+Wire Wire Line
+	7300 2725 4675 2725
+Wire Wire Line
+	4675 2725 4675 2300
+Wire Wire Line
+	4675 2300 4800 2300
+Wire Wire Line
+	7300 2300 6900 2300
+Wire Wire Line
+	6900 2300 6900 1900
+Wire Wire Line
+	8300 2300 8450 2300
+Wire Wire Line
+	8450 2300 8450 2850
+Wire Wire Line
+	1525 5800 1525 6250
+Wire Wire Line
+	1925 5800 1925 6050
+Wire Wire Line
+	1925 6050 1525 6050
+Connection ~ 1525 6050
+Wire Wire Line
+	2600 5275 2500 5275
+Wire Wire Line
+	2500 5275 2500 6475
+Wire Wire Line
+	3050 5775 2500 5775
+Connection ~ 2500 5775
+Wire Wire Line
+	3050 6075 2500 6075
+Connection ~ 2500 6075
+Wire Wire Line
+	3775 5775 3350 5775
+Wire Wire Line
+	3775 4800 3775 6075
+Wire Wire Line
+	3700 5275 3775 5275
+Connection ~ 3775 5275
+Wire Wire Line
+	6300 5075 6300 4875
+Wire Wire Line
+	6300 4875 4900 4875
+Wire Wire Line
+	4900 4875 4900 5075
+Wire Wire Line
+	4900 5075 4050 5075
+Wire Wire Line
+	4050 5075 4050 5175
+Wire Wire Line
+	4050 5175 3700 5175
+Wire Wire Line
+	6300 5375 6300 5500
+Wire Wire Line
+	6300 5500 4900 5500
+Wire Wire Line
+	4900 5500 4900 5375
+Wire Wire Line
+	4900 5375 3700 5375
+Wire Wire Line
+	4900 5275 4700 5275
+Wire Wire Line
+	4700 5275 4700 6100
+Wire Wire Line
+	6300 5175 6400 5175
+Wire Wire Line
+	6400 5175 6400 4725
+Wire Wire Line
+	6300 5275 7000 5275
+Wire Wire Line
+	7000 5275 7000 5475
+Wire Wire Line
+	7000 5475 8400 5475
+Wire Wire Line
+	8400 5475 8400 5275
+Wire Wire Line
+	7400 5275 7400 5600
+Wire Wire Line
+	7400 5600 4775 5600
+Wire Wire Line
+	4775 5600 4775 5175
+Wire Wire Line
+	4775 5175 4900 5175
+Wire Wire Line
+	7400 5175 7000 5175
+Wire Wire Line
+	7000 5175 7000 4775
+Wire Wire Line
+	8400 5175 8550 5175
+Wire Wire Line
+	8550 5175 8550 5725
+Wire Wire Line
+	3675 3200 3250 3200
+Connection ~ 3675 2900
+Wire Wire Line
+	3775 6075 3350 6075
+Connection ~ 3775 5775
+Wire Wire Line
+	2500 2500 1300 2500
+Wire Wire Line
+	2500 2300 1300 2300
+Wire Wire Line
+	1400 2625 1400 2300
+Connection ~ 1400 2300
+Wire Wire Line
+	1800 2625 1800 2500
+Connection ~ 1800 2500
+Wire Wire Line
+	2600 5175 1400 5175
+Wire Wire Line
+	2600 5375 1400 5375
+Wire Wire Line
+	1525 5500 1525 5175
+Connection ~ 1525 5175
+Wire Wire Line
+	1925 5500 1925 5375
+Connection ~ 1925 5375
+$Comp
+L R R4
+U 1 1 594B9756
+P 1250 5375
+F 0 "R4" V 1330 5375 50  0000 C CNN
+F 1 "0" V 1250 5375 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 5375 50  0001 C CNN
+F 3 "" H 1250 5375 50  0001 C CNN
+	1    1250 5375
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 594B96FA
+P 1250 5175
+F 0 "R3" V 1330 5175 50  0000 C CNN
+F 1 "0" V 1250 5175 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 5175 50  0001 C CNN
+F 3 "" H 1250 5175 50  0001 C CNN
+	1    1250 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 594B8BDB
+P 1150 2500
+F 0 "R2" V 1230 2500 50  0000 C CNN
+F 1 "0" V 1150 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1080 2500 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+	1    1150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 594B8CA5
+P 1150 2300
+F 0 "R1" V 1230 2300 50  0000 C CNN
+F 1 "0" V 1150 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1080 2300 50  0001 C CNN
+F 3 "" H 1150 2300 50  0001 C CNN
+	1    1150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Test_Point U27
+U 1 1 59A9DFC5
+P 1325 2150
+F 0 "U27" V 1335 2050 60  0000 C CNN
+F 1 "Test_Point" H 1335 2260 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 1325 2150 60  0001 C CNN
+F 3 "" H 1325 2150 60  0001 C CNN
+	1    1325 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Test_Point U29
+U 1 1 59A9E020
+P 1475 2150
+F 0 "U29" V 1475 2275 60  0000 C CNN
+F 1 "Test_Point" H 1485 2260 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 1475 2150 60  0001 C CNN
+F 3 "" H 1475 2150 60  0001 C CNN
+	1    1475 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 2250 1325 2300
+Connection ~ 1325 2300
+Wire Wire Line
+	1475 2250 1475 2500
+Connection ~ 1475 2500
+$Comp
+L Test_Point U28
+U 1 1 59A9E57F
+P 1425 5000
+F 0 "U28" V 1435 4900 60  0000 C CNN
+F 1 "Test_Point" H 1435 5110 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 1425 5000 60  0001 C CNN
+F 3 "" H 1425 5000 60  0001 C CNN
+	1    1425 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Test_Point U30
+U 1 1 59A9E5DB
+P 1625 5000
+F 0 "U30" V 1635 4900 60  0000 C CNN
+F 1 "Test_Point" H 1635 5110 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 1625 5000 60  0001 C CNN
+F 3 "" H 1625 5000 60  0001 C CNN
+	1    1625 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1425 5100 1425 5175
+Connection ~ 1425 5175
+Wire Wire Line
+	1625 5100 1625 5375
+Connection ~ 1625 5375
 $EndSCHEMATC
