@@ -27,7 +27,7 @@
   (pad 4 thru_hole circle (at 2.54 -2.54) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 5.08 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 5.08 -2.54) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
-  (model 1_PJC-Sandbox.3dshapes/HDRV6W25P254_3X2_762X508H1135.wrl
+  (model C:/Users/Yikealo/Documents/GitHub/MicromouseHardware/library/3D-Lib/2x3Header.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,5 @@
 (module LMZ21701 (layer F.Cu) (tedit 59850783)
-  (fp_text reference U15 (at 0.15 2.85) (layer F.SilkS)
+  (fp_text reference U18 (at 0.15 2.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LMZ21701 (at 0.15 -2.8) (layer F.Fab)
@@ -20,4 +20,9 @@
   (pad 8 smd rect (at 1.475 -1.2) (size 0.45 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.55 0) (size 0.8 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -0.55 0) (size 0.8 1.9) (layers F.Cu F.Paste F.Mask))
+  (model C:/Users/Yikealo/Documents/GitHub/MicromouseHardware/library/3D-Lib/LMZ21701.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

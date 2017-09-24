@@ -1,36 +1,98 @@
 EESchema Schematic File Version 2
-LIBS:device
-LIBS:Micromouse
-LIBS:power
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:1_PJC-Sandbox
+LIBS:Micromouse1.2-rescue
 LIBS:Micromouse1.2-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,8 +113,9 @@ U 1 1 59460522
 P 3475 3450
 F 0 "D9" H 3495 3520 50  0000 L CNN
 F 1 "IRL81A" H 3435 3340 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 3475 3625 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 3475 3625 50  0001 C CNN
 F 3 "" H 3425 3450 50  0000 C CNN
+F 4 "SFH 4545" H 3475 3450 60  0001 C CNN "manf#"
 	1    3475 3450
 	0    -1   -1   0   
 $EndComp
@@ -62,8 +125,9 @@ U 1 1 59460598
 P 5000 3425
 F 0 "D10" H 5020 3495 50  0000 L CNN
 F 1 "IRL81A" H 4960 3315 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 5000 3600 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 5000 3600 50  0001 C CNN
 F 3 "" H 4950 3425 50  0000 C CNN
+F 4 "SFH 4545" H 5000 3425 60  0001 C CNN "manf#"
 	1    5000 3425
 	0    -1   -1   0   
 $EndComp
@@ -73,8 +137,9 @@ U 1 1 5946062F
 P 5700 3425
 F 0 "D11" H 5720 3495 50  0000 L CNN
 F 1 "IRL81A" H 5660 3315 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 5700 3600 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 5700 3600 50  0001 C CNN
 F 3 "" H 5650 3425 50  0000 C CNN
+F 4 "SFH 4545" H 5700 3425 60  0001 C CNN "manf#"
 	1    5700 3425
 	0    -1   -1   0   
 $EndComp
@@ -84,8 +149,9 @@ U 1 1 59460667
 P 7200 3425
 F 0 "D12" H 7220 3495 50  0000 L CNN
 F 1 "IRL81A" H 7160 3315 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 7200 3600 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 7200 3600 50  0001 C CNN
 F 3 "" H 7150 3425 50  0000 C CNN
+F 4 "SFH 4545" H 7200 3425 60  0001 C CNN "manf#"
 	1    7200 3425
 	0    -1   -1   0   
 $EndComp
@@ -95,7 +161,7 @@ U 1 1 594607AD
 P 2775 4775
 F 0 "R15" V 2855 4775 50  0000 C CNN
 F 1 "0.75" V 2775 4775 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2705 4775 50  0001 C CNN
+F 2 "micromouse:C_0402" V 2705 4775 50  0001 C CNN
 F 3 "" H 2775 4775 50  0001 C CNN
 	1    2775 4775
 	0    1    1    0   
@@ -106,7 +172,7 @@ U 1 1 59460927
 P 3000 4875
 F 0 "R16" V 3080 4875 50  0000 C CNN
 F 1 "0.75" V 3000 4875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 4875 50  0001 C CNN
+F 2 "micromouse:C_0402" V 2930 4875 50  0001 C CNN
 F 3 "" H 3000 4875 50  0001 C CNN
 	1    3000 4875
 	0    1    1    0   
@@ -117,7 +183,7 @@ U 1 1 59460953
 P 4200 4975
 F 0 "R17" V 4280 4975 50  0000 C CNN
 F 1 "0.75" V 4200 4975 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4130 4975 50  0001 C CNN
+F 2 "micromouse:C_0402" V 4130 4975 50  0001 C CNN
 F 3 "" H 4200 4975 50  0001 C CNN
 	1    4200 4975
 	0    1    1    0   
@@ -128,7 +194,7 @@ U 1 1 5946097C
 P 5325 5075
 F 0 "R18" V 5405 5075 50  0000 C CNN
 F 1 "0.75" V 5325 5075 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5255 5075 50  0001 C CNN
+F 2 "micromouse:C_0402" V 5255 5075 50  0001 C CNN
 F 3 "" H 5325 5075 50  0001 C CNN
 	1    5325 5075
 	0    1    1    0   
@@ -139,7 +205,7 @@ U 1 1 594609A7
 P 6650 5175
 F 0 "R19" V 6730 5175 50  0000 C CNN
 F 1 "0.75" V 6650 5175 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6580 5175 50  0001 C CNN
+F 2 "micromouse:C_0402" V 6580 5175 50  0001 C CNN
 F 3 "" H 6650 5175 50  0001 C CNN
 	1    6650 5175
 	0    1    1    0   
@@ -150,7 +216,7 @@ U 1 1 594609E9
 P 7450 5275
 F 0 "R20" V 7530 5275 50  0000 C CNN
 F 1 "0.75" V 7450 5275 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7380 5275 50  0001 C CNN
+F 2 "micromouse:C_0402" V 7380 5275 50  0001 C CNN
 F 3 "" H 7450 5275 50  0001 C CNN
 	1    7450 5275
 	0    1    1    0   
@@ -161,8 +227,9 @@ U 1 1 59460A6B
 P 2975 3450
 F 0 "D8" H 2995 3520 50  0000 L CNN
 F 1 "IRL81A" H 2935 3340 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 2975 3625 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 2975 3625 50  0001 C CNN
 F 3 "" H 2925 3450 50  0000 C CNN
+F 4 "SFH 4545" H 2975 3450 60  0001 C CNN "manf#"
 	1    2975 3450
 	0    -1   -1   0   
 $EndComp
@@ -172,8 +239,9 @@ U 1 1 59460AA4
 P 7700 3425
 F 0 "D13" H 7720 3495 50  0000 L CNN
 F 1 "IRL81A" H 7660 3315 50  0000 C CNN
-F 2 "micromouse:IR-Emitter" H 7700 3600 50  0001 C CNN
+F 2 "micromouse:IR_Emitter" H 7700 3600 50  0001 C CNN
 F 3 "" H 7650 3425 50  0000 C CNN
+F 4 "SFH 4545" H 7700 3425 60  0001 C CNN "manf#"
 	1    7700 3425
 	0    -1   -1   0   
 $EndComp
@@ -271,31 +339,17 @@ U 1 1 59461B93
 P 1650 4675
 F 0 "U11" H 1850 4925 60  0000 L CNN
 F 1 "ULN2003APWR" H 1850 4825 60  0000 L CNN
-F 2 "micromouse:ULN2003APWR" H 1650 4675 60  0001 C CNN
+F 2 "micromouse:ULN2003V12" H 1650 4675 60  0001 C CNN
 F 3 "" H 1650 4675 60  0001 C CNN
+F 4 "ULN2003V12PWR" H 1650 4675 60  0001 C CNN "manf#"
 	1    1650 4675
 	1    0    0    -1  
 $EndComp
 $Comp
-L SMT_0540-S-R U12
-U 1 1 59461CC9
-P 2200 3600
-F 0 "U12" H 2200 3200 59  0000 C CNN
-F 1 "SMT_0540-S-R" H 2200 4100 59  0000 C CNN
-F 2 "micromouse:Buzzer_SMT-0540-S-R" H 2200 3600 59  0001 C CNN
-F 3 "" H 2200 3600 59  0001 C CNN
-	1    2200 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 3700 2650 3700
-Wire Wire Line
-	2650 3700 2650 4675
-$Comp
-L GNDD #PWR08
+L GNDD #PWR015
 U 1 1 5946214E
 P 8350 4250
-F 0 "#PWR08" H 8350 4000 50  0001 C CNN
+F 0 "#PWR015" H 8350 4000 50  0001 C CNN
 F 1 "GNDD" H 8350 4100 50  0000 C CNN
 F 2 "" H 8350 4250 50  0001 C CNN
 F 3 "" H 8350 4250 50  0001 C CNN
@@ -314,9 +368,9 @@ Wire Wire Line
 Connection ~ 6500 3950
 Connection ~ 6500 3650
 Wire Wire Line
-	2975 3350 2975 2925
+	2975 2925 2975 3350
 Wire Wire Line
-	2650 2925 8200 2925
+	2975 2925 8200 2925
 Wire Wire Line
 	7700 2925 7700 3325
 Wire Wire Line
@@ -339,24 +393,9 @@ Wire Wire Line
 	6500 3350 6500 2925
 Connection ~ 6500 2925
 Connection ~ 6500 3350
-Wire Wire Line
-	2500 3400 2650 3400
-Wire Wire Line
-	2650 3400 2650 2925
 Connection ~ 2975 2925
-$Comp
-L D D7
-U 1 1 5946296D
-P 2650 3550
-F 0 "D7" H 2650 3650 50  0000 C CNN
-F 1 "D" H 2650 3450 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 2650 3550 50  0001 C CNN
-F 3 "" H 2650 3550 50  0001 C CNN
-	1    2650 3550
-	0    1    1    0   
-$EndComp
 Text GLabel 5000 2400 1    59   Input ~ 12
-V3.3
+V1.8
 Text GLabel 925  4775 0    39   Input ~ 8
 L_EMITTER
 Text GLabel 925  4875 0    39   Input ~ 8
@@ -372,10 +411,10 @@ LD_EMITTER
 Text GLabel 925  5275 0    39   Input ~ 8
 LD_EMITTER
 $Comp
-L GNDA #PWR09
+L GNDA #PWR016
 U 1 1 59463543
 P 1525 5650
-F 0 "#PWR09" H 1525 5400 50  0001 C CNN
+F 0 "#PWR016" H 1525 5400 50  0001 C CNN
 F 1 "GNDA" H 1525 5500 50  0000 C CNN
 F 2 "" H 1525 5650 50  0001 C CNN
 F 3 "" H 1525 5650 50  0001 C CNN

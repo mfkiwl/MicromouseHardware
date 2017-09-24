@@ -1,41 +1,103 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Micromouse
 LIBS:1_PJC-Sandbox
+LIBS:Micromouse1.2-rescue
 LIBS:Micromouse1.2-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -51,8 +113,9 @@ U 1 1 5945F7BF
 P 3800 3125
 F 0 "D1" H 3820 3195 50  0000 L CNN
 F 1 "D_Photo" H 3760 3015 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 3750 3125 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 3750 3125 50  0001 C CNN
 F 3 "" H 3750 3125 50  0001 C CNN
+F 4 "TEFT4300" H 3800 3125 60  0001 C CNN "manf#"
 	1    3800 3125
 	0    -1   -1   0   
 $EndComp
@@ -75,8 +138,9 @@ U 1 1 5945FA4C
 P 4775 3100
 F 0 "D3" H 4795 3170 50  0000 L CNN
 F 1 "D_Photo" H 4735 2990 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 4725 3100 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 4725 3100 50  0001 C CNN
 F 3 "" H 4725 3100 50  0001 C CNN
+F 4 "TEFT4300" H 4775 3100 60  0001 C CNN "manf#"
 	1    4775 3100
 	0    -1   -1   0   
 $EndComp
@@ -99,8 +163,9 @@ U 1 1 5945FADF
 P 5775 3100
 F 0 "D5" H 5795 3170 50  0000 L CNN
 F 1 "D_Photo" H 5735 2990 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 5725 3100 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 5725 3100 50  0001 C CNN
 F 3 "" H 5725 3100 50  0001 C CNN
+F 4 "TEFT4300" H 5775 3100 60  0001 C CNN "manf#"
 	1    5775 3100
 	0    -1   -1   0   
 $EndComp
@@ -123,8 +188,9 @@ U 1 1 5945FB3E
 P 6775 3100
 F 0 "D6" H 6795 3170 50  0000 L CNN
 F 1 "D_Photo" H 6735 2990 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 6725 3100 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 6725 3100 50  0001 C CNN
 F 3 "" H 6725 3100 50  0001 C CNN
+F 4 "TEFT4300" H 6775 3100 60  0001 C CNN "manf#"
 	1    6775 3100
 	0    -1   -1   0   
 $EndComp
@@ -153,10 +219,10 @@ F 3 "" H 7600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR07
+L GNDA #PWR014
 U 1 1 5945FEE7
 P 3800 4525
-F 0 "#PWR07" H 3800 4275 50  0001 C CNN
+F 0 "#PWR014" H 3800 4275 50  0001 C CNN
 F 1 "GNDA" H 3800 4375 50  0000 C CNN
 F 2 "" H 3800 4525 50  0001 C CNN
 F 3 "" H 3800 4525 50  0001 C CNN
@@ -203,8 +269,9 @@ U 1 1 594637C3
 P 4250 3100
 F 0 "D2" H 4270 3170 50  0000 L CNN
 F 1 "D_Photo" H 4210 2990 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 4200 3100 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 4200 3100 50  0001 C CNN
 F 3 "" H 4200 3100 50  0001 C CNN
+F 4 "TEFT4300" H 4250 3100 60  0001 C CNN "manf#"
 	1    4250 3100
 	0    -1   -1   0   
 $EndComp
@@ -227,8 +294,9 @@ U 1 1 59463894
 P 5275 3100
 F 0 "D4" H 5295 3170 50  0000 L CNN
 F 1 "D_Photo" H 5235 2990 50  0000 C CNN
-F 2 "micromouse:IR-Reciver" H 5225 3100 50  0001 C CNN
+F 2 "micromouse:IR_Reciver" H 5225 3100 50  0001 C CNN
 F 3 "" H 5225 3100 50  0001 C CNN
+F 4 "TEFT4300" H 5275 3100 60  0001 C CNN "manf#"
 	1    5275 3100
 	0    -1   -1   0   
 $EndComp
