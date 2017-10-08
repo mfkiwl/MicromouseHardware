@@ -1252,23 +1252,12 @@ $EndComp
 $Comp
 L Motor_mount U32
 U 1 1 59B51BD5
-P 9225 5250
-F 0 "U32" H 9225 5175 60  0000 C CNN
-F 1 "Motor_mount" H 9250 5325 60  0000 C CNN
-F 2 "micromouse:Motor_mount" H 9225 5250 60  0001 C CNN
-F 3 "" H 9225 5250 60  0001 C CNN
-	1    9225 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L Motor_mount U13
-U 1 1 59B51CD6
-P 9175 2275
-F 0 "U13" H 9175 2200 60  0000 C CNN
-F 1 "Motor_mount" H 9200 2350 60  0000 C CNN
-F 2 "micromouse:Motor_mount" H 9175 2275 60  0001 C CNN
-F 3 "" H 9175 2275 60  0001 C CNN
-	1    9175 2275
+P 9275 3550
+F 0 "U32" H 9275 3475 60  0000 C CNN
+F 1 "Motor_mount" H 9300 3625 60  0000 C CNN
+F 2 "micromouse:Motor_mount" H 9275 3550 60  0001 C CNN
+F 3 "" H 9275 3550 60  0001 C CNN
+	1    9275 3550
 	0    1    1    0   
 $EndComp
 $Comp
