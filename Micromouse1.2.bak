@@ -134,12 +134,6 @@ F0 "Power System" 157
 F1 "Power System.sch" 157
 $EndSheet
 $Sheet
-S 4075 3475 2725 1400
-U 59468AAF
-F0 "Micro controller" 157
-F1 "Micro controller.sch" 157
-$EndSheet
-$Sheet
 S 7325 3450 1075 1450
 U 597FE5C0
 F0 "BlueTooth" 60
@@ -150,5 +144,11 @@ S 8625 3450 1475 1450
 U 59AB6D77
 F0 "Gyro" 60
 F1 "Gyro.sch" 60
+$EndSheet
+$Sheet
+S 4125 3475 2700 1450
+U 59E856FE
+F0 "Microcontroller" 60
+F1 "Microcontroller.sch" 60
 $EndSheet
 $EndSCHEMATC
