@@ -5,4 +5,9 @@ D Two pin crystal, small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP Q_NMOS_DGS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 #End Doc Library
