@@ -339,7 +339,7 @@ Wire Wire Line
 Connection ~ 6500 2925
 Connection ~ 6500 3350
 Text GLabel 5000 2400 1    59   Input ~ 12
-V1.8
+V2
 Text GLabel 2550 4425 0    39   Input ~ 8
 L_EMITTER
 Text GLabel 3775 4425 2    39   Input ~ 8

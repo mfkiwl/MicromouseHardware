@@ -1300,7 +1300,7 @@ F 3 "" H 6925 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 2175 1    60   Input ~ 0
-VBAT
+V_BAT
 $Comp
 L C C3
 U 1 1 59C13FD2
