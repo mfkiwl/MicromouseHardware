@@ -107,26 +107,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7430 7500 0    60   ~ 0
+Top View \n
 $Sheet
-S 830 890 2940 1750
+S 830  890  2940 1750
 U 5945E016
 F0 "Motor Controller" 157
 F1 "Motor Controller.sch" 157
 $EndSheet
 $Sheet
-S 4100 900 2725 1775
+S 4100 900  2725 1775
 U 5945F744
 F0 "IR Reciver" 157
 F1 "IR Reciver.sch" 157
 $EndSheet
 $Sheet
-S 7325 900 3350 1750
+S 7325 900  3350 1750
 U 5946044F
 F0 "IR Emitter " 157
 F1 "IR Emitter .sch" 157
 $EndSheet
 $Sheet
-S 875 3475 2775 1450
+S 875  3475 2775 1450
 U 59463AE3
 F0 "Power System" 157
 F1 "Power System.sch" 157
@@ -149,6 +151,4 @@ U 59AB6D77
 F0 "Gyro" 60
 F1 "Gyro.sch" 60
 $EndSheet
-Text Notes 7430 7500 0    60   ~ 0
-Top View \n
 $EndSCHEMATC
