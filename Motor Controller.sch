@@ -245,7 +245,7 @@ F 0 "U32" H 9275 3475 60  0000 C CNN
 F 1 "Motor_mount" H 9300 3625 60  0000 C CNN
 F 2 "micromouse:Motor_mount" H 9275 3550 60  0001 C CNN
 F 3 "" H 9275 3550 60  0001 C CNN
-F 4 "NONE" H 9275 3575 50  0001 C CNN "manf#"
+F 4 "DNP" H 9275 3575 50  0001 C CNN "manf#"
 	1    9275 3550
 	0    1    1    0   
 $EndComp

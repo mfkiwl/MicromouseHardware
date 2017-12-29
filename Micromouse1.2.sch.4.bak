@@ -97,7 +97,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -107,37 +107,48 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_01X4 P1
-U 1 1 597FE5C9
-P 5250 2825
-F 0 "P1" H 5250 3075 50 0000 C CNN
-F 1 "CONN_01X4" V 5350 2825 50 0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5250 2425 50 0001 C CNN
-F 3 "" H 5250 2425 50 0000 C CNN
-F 4 "DNP" H 5250 3175 50 0001 C CNN "manf#"
-	1    5250 2825
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR52
-U 1 1 597FE6B7
-P 4800 3000
-F 0 "#PWR52" H 4800 2750 50 0001 C CNN
-F 1 "GND" H 4800 2850 50 0000 C CNN
-F 2 "" H 4800 3000 50 0001 C CNN
-F 3 "" H 4800 3000 50 0001 C CNN
-	1    4800 3000
-	1    0    0    -1  
-$EndComp
-Text GLabel 5050 2775 0    35   Input ~ 0
-TX
-Text GLabel 5050 2975 0    35   Input ~ 0
-MCUv
-Text GLabel 5050 2675 0    35   Input ~ 0
-RX
-Wire Wire Line
-	5050 2875 4800 2875
-Wire Wire Line
-	4800 2875 4800 2900
+$Sheet
+S 830  890  2940 1750
+U 5945E016
+F0 "Motor Controller" 157
+F1 "Motor Controller.sch" 157
+$EndSheet
+$Sheet
+S 4100 900  2725 1775
+U 5945F744
+F0 "IR Reciver" 157
+F1 "IR Reciver.sch" 157
+$EndSheet
+$Sheet
+S 7325 900  3350 1750
+U 5946044F
+F0 "IR Emitter " 157
+F1 "IR Emitter .sch" 157
+$EndSheet
+$Sheet
+S 875  3475 2775 1450
+U 59463AE3
+F0 "Power System" 157
+F1 "Power System.sch" 157
+$EndSheet
+$Sheet
+S 4075 3475 2725 1400
+U 59468AAF
+F0 "Micro controller" 157
+F1 "Micro controller.sch" 157
+$EndSheet
+$Sheet
+S 7325 3450 1075 1450
+U 597FE5C0
+F0 "BlueTooth" 60
+F1 "BlueToothF.sch" 60
+$EndSheet
+$Sheet
+S 8625 3450 1475 1450
+U 59AB6D77
+F0 "Gyro" 60
+F1 "Gyro.sch" 60
+$EndSheet
+Text Notes 7430 7500 0    60   ~ 0
+Top View \n
 $EndSCHEMATC

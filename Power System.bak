@@ -199,7 +199,7 @@ F 0 "U19" H 3112 1997 39 0000 C CNN
 F 1 "splitter" H 3073 2201 39 0001 C CNN
 F 2 "micromouse:spliter" H 3050 2100 39 0001 C CNN
 F 3 "" H 3050 2100 39 0001 C CNN
-F 4 "NONE" H 3112 2097 50 0001 C CNN "manf#"
+F 4 "DNP" H 3112 2097 50 0001 C CNN "manf#"
 	1    3050 2100
 	0    1    1    0   
 $EndComp
@@ -295,7 +295,7 @@ F 0 "U16" H 1750 1775 39 0000 C CNN
 F 1 "JST_Connector" H 2000 1925 39 0000 C CNN
 F 2 "micromouse:JST_Connector" H 2000 1675 39 0001 C CNN
 F 3 "" H 1750 1775 39 0001 C CNN
-F 4 "NONE" H 1750 1875 50 0001 C CNN "manf#"
+F 4 "DNP" H 1750 1875 50 0001 C CNN "manf#"
 	1    2000 1675
 	1    0    0    -1  
 $EndComp
@@ -307,7 +307,7 @@ F 0 "U17" H 3175 1875 39 0000 C CNN
 F 1 "Switch_micromouse" H 2825 2050 39 0000 C CNN
 F 2 "micromouse:Switch_battery" H 2925 1700 39 0001 C CNN
 F 3 "" H 2925 1700 39 0001 C CNN
-F 4 "NONE" H 3175 1975 50 0001 C CNN "manf#"
+F 4 "DNP" H 3175 1975 50 0001 C CNN "manf#"
 	1    2925 1700
 	1    0    0    -1  
 $EndComp

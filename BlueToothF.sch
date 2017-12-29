@@ -115,7 +115,7 @@ F 0 "P1" H 5250 3075 50  0000 C CNN
 F 1 "CONN_01X4" V 5350 2825 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5250 2425 50  0001 C CNN
 F 3 "" H 5250 2425 50  0000 C CNN
-F 4 "NONE" H 5250 3175 50  0001 C CNN "manf#"
+F 4 "DNP" H 5250 3175 50  0001 C CNN "manf#"
 	1    5250 2825
 	1    0    0    -1  
 $EndComp
